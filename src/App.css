@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.footer {
+  width: 100%;
+  background: linear-gradient(135deg, #001f3f 0%, #003366 100%);
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 50px;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-content {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #ffffff;
+  min-height: 60vh;
+}
+
+.products-title {
+  color: #001f3f;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+}
+
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover img {
+  transform: scale(1.05);
+}
+
+.product-card .card-body {
+  padding: 20px;
+}
+
+.product-card .card-title {
+  font-weight: 600;
+  color: #001f3f;
+  margin-bottom: 10px;
+}
+
+.product-card .card-text {
+  font-size: 1.25rem;
+  color: #e74c3c;
+  font-weight: 700;
+}
+
+.product-card .btn-primary {
+  background: linear-gradient(135deg, #001f3f 0%, #003366 100%);
+  border: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.product-card .btn-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 31, 63, 0.3);
+}
+
+.shop-info {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+}
+
+.shop-info h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.shop-info p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.bg-body-tertiary {
+  background-color: #001f3f;
+}
+
+.logo img {
+  width: 80px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+  transform: rotate(5deg) scale(1.1);
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-link-custom {
+  color: white !important;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.nav-link-custom::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 50%;
+  background-color: white;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.nav-link-custom:hover::after {
+  width: 100%;
+}
+
+.nav-link-custom:hover {
+  color: #ffd700 !important;
+}
+
+/* Carousel Styles */
+.carousel {
+  position: relative;
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel-indicators button {
+  background-color: #001f3f;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 31, 63, 0.8);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-size: 60%;
+}
+
