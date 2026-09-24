@@ -1,0 +1,45 @@
+.hero-carousel .carousel-indicators {
+  bottom: 20px;
+}
+
+.hero-carousel .carousel-indicators [data-bs-target] {
+  background-color: #fff;
+}
+
+.hero-carousel .carousel-control-prev-icon,
+.hero-carousel .carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-size: 60%;
+}
+
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.product-card .card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+.hover-white:hover {
+  color: #fff !important;
+}
+
+.navbar-brand {
+  letter-spacing: 1px;
+}
+
+.z-1 {
+  z-index: 1;
+}
