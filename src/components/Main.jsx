@@ -6,40 +6,40 @@ function Main() {
       <h1 className="products-title">Nos Produits</h1>
       <div className='card-container'>
          <Card className="product-card" style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop" />
+      <Card.Img variant="top" src="/produits/robe.jpg" />
       <Card.Body>
-        <Card.Title>Wireless Headphones</Card.Title>
+        <Card.Title>Robe Élégante</Card.Title>
         <Card.Text>
-          50.00DT </Card.Text>
+          89.99DT </Card.Text>
         <Button variant="primary">Ajouter au panier</Button>
       </Card.Body>
     </Card>
     <Card className="product-card" style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop" />
+      <Card.Img variant="top" src="/produits/lunette.jpg" />
       <Card.Body>
-        <Card.Title>Smart Watch</Card.Title>
+        <Card.Title>Lunettes de Soleil</Card.Title>
         <Card.Text>
-        150.00DT
+        129.99DT
         </Card.Text>
         <Button variant="primary">Ajouter au panier</Button>
       </Card.Body>
     </Card>
     <Card className="product-card" style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=300&fit=crop" />
+      <Card.Img variant="top" src="/produits/sac.jpg" />
       <Card.Body>
-        <Card.Title>Backpack</Card.Title>
+        <Card.Title>Sac à Main</Card.Title>
         <Card.Text>
-          30.00DT
+          149.99DT
         </Card.Text>
         <Button variant="primary">Ajouter au panier</Button>
       </Card.Body>
     </Card>
     <Card className="product-card" style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=300&fit=crop" />
+      <Card.Img variant="top" src="/produits/ballerine.jpg" />
       <Card.Body>
-        <Card.Title>Sneakers</Card.Title>
+        <Card.Title>Ballerines</Card.Title>
         <Card.Text>
-          80.00 DT
+          59.99 DT
         </Card.Text>
         <Button variant="primary">Ajouter au panier</Button>
       </Card.Body>

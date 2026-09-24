@@ -11,13 +11,13 @@ function Header() {
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
-        <img src="/carousel1.png" className="d-block w-100" alt="Slide 1" />
+        <img src="/carousel/carousel1.jpg" className="d-block w-100" alt="Slide 1" />
       </Carousel.Item>
       <Carousel.Item>
-        <img src="/carousel2.png" className="d-block w-100" alt="Slide 2" />
+        <img src="/carousel/carousel2.jpg" className="d-block w-100" alt="Slide 2" />
       </Carousel.Item>
       <Carousel.Item>
-        <img src="/carousel3.png" className="d-block w-100" alt="Slide 3" />
+        <img src="/carousel/carousel3.jpg" className="d-block w-100" alt="Slide 3" />
       </Carousel.Item>
     </Carousel>
   )
